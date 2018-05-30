@@ -43,7 +43,7 @@ public class RegisterController {
 	}
 	
 	// Return registration form template
-	@RequestMapping(value="/", method = RequestMethod.GET)
+	@RequestMapping(value="/index", method = RequestMethod.GET)
 	public ModelAndView login(ModelAndView modelAndView, User user){
 		modelAndView.addObject("user", user);
 		modelAndView.setViewName("index");
