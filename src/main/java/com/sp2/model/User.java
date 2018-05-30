@@ -12,7 +12,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.data.annotation.Transient;
 
 @Entity
-@Table(name = "user")
+@Table(name = "userdetails")
 public class User {
 
 	@Id
