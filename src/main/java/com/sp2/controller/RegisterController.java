@@ -64,7 +64,7 @@ public class RegisterController {
 		                userExists.getFirstName());
 				String name=userExists.getFirstName();
 				
-				 modelAndView.setViewName("/success");
+				 modelAndView.setViewName("success");
 				 modelAndView.addObject("username",name);
 				 modelAndView.addObject("user", user.getFirstName());
 					List<User> userExists1 = userService.splitlist();
